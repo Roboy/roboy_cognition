@@ -1,0 +1,21 @@
+[submodule "src/roboy_dialog"]
+	path = src/roboy_dialog
+	url = https://github.com/Roboy/roboy_dialog.git
+[submodule "src/roboy_communication"]
+	path = src/roboy_communication
+	url = https://github.com/Roboy/roboy_communication.git
+[submodule "src/roboy_intents_classification"]
+	path = src/roboy_intents_classification
+	url = https://github.com/Roboy/roboy_intents_classification.git
+[submodule "src/roboy_cognition_manager"]
+	path = src/roboy_cognition_manager
+	url = https://github.com/Roboy/roboy_cognition_manager.git
+[submodule "src/roboy_speech_synthesis"]
+	path = src/roboy_speech_synthesis
+	url = https://github.com/Roboy/roboy_speech_synthesis.git
+[submodule "src/roboy_speech_recognition"]
+	path = src/roboy_speech_recognition
+	url = https://github.com/Roboy/roboy_speech_recognition.git
+[submodule "src/roboy_face"]
+	path = src/roboy_face
+	url = https://github.com/Roboy/roboy_face.git
