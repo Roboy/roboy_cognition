@@ -25,3 +25,6 @@
 [submodule "roboy_intents_classification"]
 	path = roboy_intents_classification
 	url = https://github.com/Roboy/roboy_intents_classification.git
+[submodule "roboy_communication"]
+	path = roboy_communication
+	url = https://github.com/Roboy/roboy_communication.git
