@@ -16,9 +16,6 @@
 [submodule "src/roboy_speech_recognition"]
 	path = src/roboy_speech_recognition
 	url = https://github.com/Roboy/roboy_speech_recognition.git
-[submodule "src/roboy_face"]
-	path = src/roboy_face
-	url = https://github.com/Roboy/roboy_face.git
 [submodule "src/RoboyUnityFace"]
 	path = src/RoboyUnityFace
 	url = https://github.com/Roboy/RoboyUnityFace.git
