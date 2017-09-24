@@ -19,3 +19,9 @@
 [submodule "src/roboy_face"]
 	path = src/roboy_face
 	url = https://github.com/Roboy/roboy_face.git
+[submodule "src/RoboyUnityFace"]
+	path = src/RoboyUnityFace
+	url = https://github.com/Roboy/RoboyUnityFace.git
+[submodule "src/roboy_vision"]
+	path = src/roboy_vision
+	url = https://github.com/Roboy/roboy_vision.git
