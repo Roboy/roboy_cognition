@@ -28,3 +28,6 @@
 [submodule "roboy_communication"]
 	path = roboy_communication
 	url = https://github.com/Roboy/roboy_communication.git
+[submodule "roboy_face"]
+	path = roboy_face
+	url = https://github.com/Roboy/roboy_face.git
