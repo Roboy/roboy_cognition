@@ -31,3 +31,6 @@
 [submodule "roboy_face"]
 	path = roboy_face
 	url = https://github.com/Roboy/roboy_face.git
+[submodule "DeepQA"]
+	path = DeepQA
+	url = https://github.com/Roboy/DeepQA.git
