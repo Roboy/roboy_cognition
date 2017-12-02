@@ -34,3 +34,6 @@
 [submodule "DeepQA"]
 	path = DeepQA
 	url = https://github.com/Roboy/DeepQA.git
+[submodule "roboy_local_speech_recognition"]
+	path = roboy_local_speech_recognition
+	url = https://github.com/HackRoboy/roboy_local_speech_recognition.git
