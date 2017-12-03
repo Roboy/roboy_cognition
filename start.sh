@@ -1,16 +1,30 @@
-if [ ! -d /var/run/neo4j ]; then
-	sudo mkdir /var/run/neo4j
+######################################################
+# Roboy Cognition env
+######################################################
+
+export COGNITION_WS="/home/roboy/workspace/cognition"
+source $COGNITION_WS/devel/setup.bash
+
+export NEO4J_USERNAME="memory"
+export NEO4J_ADDRESS="bolt://bot.roboy.org:7687"
+export NEO4J_PASSWORD="eterna15un5hine0fthe5p0t1e55mind"
+
+######################################################
+
+
+# if [ ! -d /var/run/neo4j ]; then
+# 	sudo mkdir /var/run/neo4j
 	
-fi
-sudo neo4j start
-cd ~/cognition_ws
+# fi
+# sudo neo4j start
+cd $COGNITION_WS
 source devel/setup.bash
 roslaunch roboy_cognition_manager roboy.launch &
 sleep 5
-cd src/roboy_cognition/DeepQA 
+cd src/roboy_cognition/roboy_generative_nlp 
 ./advertise_gnlp_service &
 
-cd /home/roboy/cognition_ws/src/roboy_cognition/roboy_memory/target
+cd $COGNITION_WS/src/roboy_cognition/roboy_memory/target
 java -jar roboy_memory-1.0.0-jar-with-dependencies.jar &
 
 # rosservice call /roboy/cognition/generative_nlp/answer "text_input: 'hey ho'"
