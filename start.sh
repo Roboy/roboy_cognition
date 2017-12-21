@@ -1,8 +1,8 @@
-if [ ! -d /var/run/neo4j ]; then
-	sudo mkdir /var/run/neo4j
+# if [ ! -d /var/run/neo4j ]; then
+# 	sudo mkdir /var/run/neo4j
 	
-fi
-sudo neo4j start
+# fi
+# sudo neo4j start
 cd ~/cognition_ws
 source devel/setup.bash
 roslaunch roboy_cognition_manager roboy.launch &
@@ -10,8 +10,8 @@ sleep 5
 cd src/roboy_cognition/roboy_generative_nlp 
 ./advertise_gnlp_service &
 
-cd /home/roboy/cognition_ws/src/roboy_cognition/roboy_memory/target
-java -jar roboy_memory-1.0.0-jar-with-dependencies.jar &
+# cd /home/roboy/cognition_ws/src/roboy_cognition/roboy_memory/target
+# java -jar roboy_memory-1.0.0-jar-with-dependencies.jar &
 
 rosservice call /roboy/cognition/generative_nlp/answer "text_input: 'hey ho'"
 
