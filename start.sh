@@ -5,9 +5,9 @@
 export COGNITION_WS="/home/roboy/cognition_ws"
 source $COGNITION_WS/devel/setup.bash
 
-export NEO4J_USERNAME="memory"
+export NEO4J_USERNAME=""
 export NEO4J_ADDRESS="bolt://bot.roboy.org:7687"
-export NEO4J_PASSWORD="eterna15un5hine0fthe5p0t1e55mind"
+export NEO4J_PASSWORD=""
 
 ######################################################
 
